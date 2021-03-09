@@ -1,0 +1,36 @@
+---
+---
+
+@import "minima";
+
+@font-face {
+    font-family: "Inter";
+    src: url('/assets/inter/Inter-VariableFont_slnt,wght.ttf');
+}
+
+body {
+    font-family: "Inter";
+}
+
+.post-title {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+main.page-content .wrapper {
+    font-size: 18px;
+    width: 52ch;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.post-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 600;
+}
