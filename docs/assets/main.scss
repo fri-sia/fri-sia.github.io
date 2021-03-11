@@ -34,3 +34,19 @@ h1 {
 strong {
     font-weight: 600;
 }
+
+.site-title {
+    font-weight: 600;
+    &::after {
+        display: inline-block;
+    }
+}
+
+.post-list li {
+    border-left: 4px solid hotpink;
+    padding-left: 1rem;
+}
+
+a.post-link {
+    font-weight: 300;
+}
